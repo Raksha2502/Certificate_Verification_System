@@ -1,0 +1,97 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eeefe9;
+  margin: 0;
+  padding: 0;
+}
+
+.myDiv {
+  width: 60%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.h2colored {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #6579e1;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="file"]:focus {
+  outline: none;
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+.certificate {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+  border: 5px solid #333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.certificate h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.certificate hr {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #333;
+}
+
+.certificate p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.student-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.domain {
+  font-style: italic;
+}
+
+.dates {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+}
